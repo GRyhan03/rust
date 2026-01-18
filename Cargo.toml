@@ -1,0 +1,12 @@
+[package]
+name = "fat32"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloc = { package = "alloc", version = "*", optional = true }
+
+spin = "0.9"
+
+[features]
+default = []
